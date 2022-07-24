@@ -1,0 +1,1 @@
+This terraform will create all of the server resources for Mizzou's INFOTC 3850 class. It is for educational purposes only and is provided as-is with no support of any kind.
