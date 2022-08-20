@@ -52,7 +52,7 @@ resource "azurerm_linux_virtual_machine" "virtual_machines" {
   }
 
   admin_ssh_key {
-    username   = "it3850"
+    username   = var.admin_username
     public_key = var.public_key
   }
 
