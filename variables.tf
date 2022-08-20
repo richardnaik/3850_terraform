@@ -27,6 +27,14 @@ variable "public_key" {
   type = string
 }
 
+variable "private_key" {
+  type = string
+}
+
 variable "admin_username" {
+  type = string
+}
+
+variable "ansible_path" {
   type = string
 }
